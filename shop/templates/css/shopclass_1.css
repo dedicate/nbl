@@ -1,0 +1,29 @@
+/* ============分类列表============== */
+
+ul.shopclass_1{
+margin:0px;
+padding:0px;
+}
+
+li.shopclass_1 {
+float:left;
+margin:0px;
+padding:0px;
+list-style-type: none;
+white-space: nowrap;
+}
+
+a.shopclass_1:link,a.shopclass_1:visited,a.shopclass_1:active{
+color:#8c8c8c;
+text-decoration: none;
+font: 12px/18px simsun;
+background: transparent url(../images/list.jpg) right 0px  no-repeat;
+padding:0px 17px;
+margin:0px;
+}
+
+a.shopclass_1:hover{
+color:#ff0000;
+text-decoration: underline;
+font: 12px/18px simsun;
+}

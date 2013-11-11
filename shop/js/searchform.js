@@ -1,0 +1,13 @@
+$(document).ready(function(){
+	if($("#shopkeyword")[0].value==""){
+		$("#shopkeyword")[0].value="请输入搜索关键词";
+		$("#shopkeyword").focus(function(){
+			$("#shopkeyword")[0].value="";
+		});
+	}
+	if($("#shopkeyword")[0].value=="请输入搜索关键词"){
+		$("#shopkeyword").focus(function(){
+			$("#shopkeyword")[0].value="";
+		});
+	}
+});

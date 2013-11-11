@@ -1,0 +1,36 @@
+.index_focus_box {
+	BACKGROUND: #fff; WIDTH: 735px; POSITION: relative; HEIGHT: 341px;
+	}
+.index_focus_box div.img {
+	Z-INDEX: 1; LEFT: 0px; WIDTH: 731px; POSITION: absolute; TOP: 0px; HEIGHT: 336px; border: 1px solid #e6e6e6;padding:1px;
+}
+.index_focus_box div.loding {
+	Z-INDEX: 40; BACKGROUND: url(loding.gif) #fafafa no-repeat center 130px; LEFT: 0px; WIDTH: 735px; POSITION: absolute; TOP: 0px; HEIGHT: 341px
+}
+.index_focus_box ul.panel {
+	Z-INDEX: 20; WIDTH: 735px; POSITION: absolute; TOP: 303px; HEIGHT: 34px;z-index:2;margin:0px 0px 0px 1px;
+}
+.index_focus_box ul.panel li {
+	DISPLAY: inline; BACKGROUND: #333; FILTER: alpha(Opacity=40); FLOAT: left; MARGIN-LEFT: 1px; WIDTH: 243px; HEIGHT: 34px; Opacity: .5
+}
+.index_focus_box ul.panel li.last {
+	WIDTH: 243px
+}
+.index_focus_box ul.panel li.on {
+	FILTER: alpha(Opacity=70); Opacity: .8;
+}
+.index_focus_box ul.title {
+	Z-INDEX: 30; WIDTH: 735px; POSITION: absolute; TOP: 303px; HEIGHT: 34px;margin:0px 0px 0px 1px;
+}
+.index_focus_box ul.title li {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 1px; WIDTH: 243px; HEIGHT: 34px
+}
+.index_focus_box ul.title li A {
+	DISPLAY: block; WIDTH: 243px; COLOR: #fffdfe; liNE-HEIGHT: 35px; HEIGHT: 34px; TEXT-AliGN: center; font-size: 13px; text-decoration: none;
+}
+.index_focus_box ul.title li A:hover {
+	BACKGROUND: url(arrow_focus.gif) no-repeat center 26px; text-decoration: none;
+}
+.index_focus_box ul.title li.on A {
+	BACKGROUND: url(arrow_focus.gif) no-repeat center 26px
+}

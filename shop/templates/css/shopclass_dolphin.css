@@ -1,0 +1,29 @@
+/* ============分类列表============== */
+
+ul.shopclass_dolphin{
+margin:0px;
+padding:17px 0px 0px;
+}
+
+li.shopclass_dolphin {
+margin:0px;
+padding:0px;
+list-style-type: none;
+white-space: nowrap;
+height:36px;
+background: transparent url(../images/dot2.jpg) 0px 0px  no-repeat;
+}
+
+a.shopclass_dolphin:link,a.shopclass_dolphin:visited,a.shopclass_dolphin:active{
+color:#fff;
+text-decoration: none;
+font: 12px/35px simsun;
+padding-left:43px;
+margin:0px;
+}
+
+a.shopclass_dolphin:hover{
+color:#ffbf00;
+text-decoration: underline;
+font: 12px/35px simsun;
+}

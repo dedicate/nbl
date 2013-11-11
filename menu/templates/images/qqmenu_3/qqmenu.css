@@ -1,0 +1,92 @@
+.arrowlistmenu{
+border:1px #cec7c7 solid;
+}
+
+.arrowlistmenu .top{ 
+clear:both;
+height:28px;
+color:#2e2e2e;
+background:url(catcap2.jpg) left no-repeat;  
+font:14px/30px Verdana, Arial, Helvetica, sans-serif;
+border-bottom:1px #e0e0e0 solid;
+border-top:1px #e0e0e0 solid;
+margin-top:-1px;
+padding-left:24px;
+}
+
+.arrowlistmenu .topright{
+float:right;
+width:32px;
+height:28px;
+background:url(catcap4.jpg) left no-repeat;  
+cursor: pointer;
+}
+
+.arrowlistmenu .topright_open{
+float:right;
+width:32px;
+height:28px;
+background:url(catcap3.jpg) left no-repeat;  
+cursor: pointer;
+}
+
+.arrowlistmenu{
+margin:0px;
+padding:0px;
+}
+
+.arrowlistmenu .menuheader{ 
+height:30px;
+font:bold 12px/14px 'SimSun',Arial,Sans-Serif;
+color:#2e2e2e;
+background:url(dot2.jpg) 0px 0px no-repeat;  
+margin-bottom:0px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+margin-top:9px;
+padding-left:24px;
+cursor: pointer;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+background:url(dot2.jpg) 0px 0px no-repeat;  
+}
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+padding:15px 0px 6px 26px;
+margin-right:24px;
+}
+
+.arrowlistmenu ul li{
+height:21px;
+padding-bottom:0px; /*bottom spacing between menu items*/
+margin-bottom:0px;
+background:url(sub.jpg) 0px 3px no-repeat;  
+}
+
+.arrowlistmenu ul li .opensubheader{ /*Open state CSS for sub menu header*/
+background: lightblue !important;
+}
+
+.arrowlistmenu ul li .closedsubheader{ /*Closed state CSS for sub menu header*/
+background: lightgreen !important;
+}
+
+.arrowlistmenu ul li a{
+color:#686868;
+display: block;
+font:12px/14px 'SimSun',Arial,Sans-Serif;
+padding-left:14px; 
+text-decoration: none;
+}
+
+.arrowlistmenu ul li a:visited{
+color:#686868;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+color:#e10000;
+}
+
+.arrowlistmenu ul li a.subexpandable:hover{ /*hover state CSS for sub menu header*/
+}

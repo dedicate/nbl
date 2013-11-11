@@ -1,0 +1,95 @@
+#menumain_dolphin{
+   margin:0;
+   white-space:nowrap;
+   overflow:hidden;
+   height:30px;
+   float:left;
+}
+
+#menumain_dolphin .mainmenuiner {
+    height:30px;
+	padding:0;
+    line-height:30px;
+    overflow: hidden;
+    margin:0px;
+}
+
+#menumain_dolphin .menuleft{
+   display:block;
+   float:left;
+   height:30px;
+   width:197px;
+   text-decoration: none;
+   text-align:center;
+   color:#fff;
+   font:14px/32px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+
+#menumain_dolphin .menuleft a{
+   display:block;
+   float:left;
+   height:30px;
+   width:84px;
+   text-decoration: none;
+   text-align:center;
+   color:#fff;
+   font:14px/32px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+
+.menuright {
+   display:block;
+   float:left;
+   height:30px;
+   text-decoration: none;
+   text-align:center;
+   color:#fff;
+   font:14px/32px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   padding:0px 0px 0px 136px;
+}
+
+.menuright a:link,.menuright a:active,.menuright a:visited{
+   float:left;
+   height:30px;
+   text-decoration: none;
+   text-align:left;
+   color:#fff;
+   width:95px;
+   font:14px/32px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+
+.menuright a:hover{
+   float:left;
+   height:30px;
+   text-decoration: none;
+   text-align:left;
+   color:#ffbf00;
+   font:14px/32px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+
+#menumain_dolphin a.menumain_dolphin:link,#menumain_dolphin a.menumain_dolphin:active,#menumain_dolphin a.menumain_dolphin:visited{
+   display:block;
+   float:left;
+   height:30px;
+   text-decoration: none;
+   text-align:center;
+   padding:0px 21px;
+   color:#fff;
+   font:14px/32px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+
+#menumain_dolphin a.menumain_dolphin:hover{
+   display:block;
+   float:left;
+   height:30px;
+   color:#ffbf00; 
+   text-decoration: none;
+   text-align:center;
+   padding:0px 21px;
+   font:14px/32px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+   margin:0px;
+} 

@@ -1,0 +1,323 @@
+/* ============ฯ๊ว้============== */
+
+div#shopcontent{
+margin:0px;
+border:0px #def solid;
+text-align:left;
+}
+
+
+div#shopcontent .piczone{
+width:286px;
+height:283px;
+text-align: center;
+padding:3px 0px 0px ;
+margin:0px 30px 0px 0px;
+background:#fff;
+border:1px #cec7c7 solid;
+}
+
+div#shopcontent .shoppic{
+cursor:pointer;
+}
+
+div#shopcontent .shoploading{
+margin:125px 0px;
+}
+
+
+div#shopcontent #prodtitle{
+margin:0px 0px 12px 0px;
+text-align: left;
+height:25px;
+font:bold 16px/25px Verdana, Arial, Helvetica, sans-serif;
+padding:0px;
+}
+
+
+div#shopcontent div#memo{
+padding:0px;
+margin:10px 0px 10px 0px;
+text-align:left;
+font:12px/20px Verdana, Arial, Helvetica, sans-serif;
+color:#e10000;
+}
+
+div#shopcontent div#prop{
+padding:12px 0px;
+margin:5px 20px 5px 0px;
+text-align:left;
+font: 12px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#shopcontent span.price{
+color:#cc0000;
+font:bold 16px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#shopcontent span.pricex{
+color:#009999;
+font:14px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#shopcontent span.marketprice{
+color:#707070;
+font:14px/20px Verdana, Arial, Helvetica, sans-serif;
+text-decoration:line-through;
+}
+
+div#shopcontent div.buttonzone{
+margin:10px 0px 0px 0px;
+cursor:pointer;
+}
+
+div#shopcontent .bodyzone_cap{
+clear:both;
+margin:30px 0px 0px 0px;
+font: 14px/20px Verdana, Arial, Helvetica, sans-serif;
+height:31px;
+background:url(../images/conbg.jpg) 0px 0px repeat-x;
+}
+
+div#shopcontent .bodyzone_cap_left{
+float:left;
+height:35px;
+width:1px;
+background:url(../images/conleft.jpg) 0px 0px no-repeat;
+}
+
+div#shopcontent .bodyzone_cap_now{
+float:left;
+height:35px;
+width:94px;
+margin-left:0px;
+background:url(../images/connow.jpg) 0px 0px no-repeat;
+font:14px/32px Verdana, Arial, Helvetica, sans-serif;
+color:#3a3a3a;
+text-align:center;
+cursor:pointer;
+}
+div#shopcontent .bodyzone_cap_list{
+float:left;
+margin-left:0px;
+height:35px;
+width:94px;
+background:url(../images/conn.jpg) 0px 0px no-repeat;
+font:14px/32px Verdana, Arial, Helvetica, sans-serif;
+color:#3a3a3a;
+text-align:center;
+cursor:pointer;
+}
+
+
+
+div#shopcontent .bodyzone_cap_right{
+float:left;
+height:35px;
+width:1px;
+background:url(../images/conleft.jpg) 0px 0px no-repeat;
+}
+
+div#shopcontent .bodyzone{
+clear:both;
+margin-top:-3px;
+border:1px #d4d4d4 solid;
+border-top:0px;
+padding:20px;
+font: 14px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#shopcontent .canshuzone{
+display:none;
+clear:both;
+margin-top:-3px;
+border:1px #d4d4d4 solid;
+border-top:0px;
+padding:5px;
+font: 14px/20px Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+div#shopcontent .bzone{
+clear:both;
+margin:20px 0px 30px 0px;
+text-align: left;
+}
+
+
+div#shopcontent .tags{
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+background:url(../images/tags.gif) left no-repeat;
+padding-left:23px;
+height:22px;
+line-height:22px;
+}
+
+div#shopcontent .source{
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+background:url(../images/source.gif) left no-repeat;
+padding-left:23px;
+height:22px;
+line-height:22px;
+}
+
+div#shopcontent .addfav{
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+background:url(../images/fav.gif) left no-repeat;
+padding-left:23px;
+height:22px;
+line-height:22px;
+cursor:pointer;
+}
+
+div#shopcontent #zhichi{
+cursor:pointer;
+background:url(../images/zhichi.gif) right no-repeat;
+padding-right:12px;
+}
+
+div#shopcontent #fandui{
+cursor:pointer;
+background:url(../images/fandui.gif) right no-repeat;
+padding-right:12px;
+}
+
+div#shopcontent .banzhu{
+display:none;
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+background:url(../images/banzhu.gif) left no-repeat;
+padding-left:23px;
+height:22px;
+line-height:22px;
+}
+
+div#shopcontent .banzhu span{
+cursor:pointer;
+}
+
+.shoplistx a:link {
+	color: #432121;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.shoplistx a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+.shoplistx a:hover {
+	color: #666666;
+}
+
+.shoplistx a:active {
+    color: #666666;
+	text-decoration: none;
+}
+
+.shoplistx {
+	visibility:visible;
+	margin:0px;
+	padding:0px;
+	position: relative;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 12px;
+	overflow: hidden;
+	width:100%;
+}
+
+.rollshoplists {
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	width:100%;
+}
+
+.blkshoplistx {
+	border:0px; 
+	padding:0px; 
+	overflow: hidden;
+	ZOOM: 1; 
+	position: relative;
+}
+
+.blkshoplistx .LeftButton {
+	background: url(../images/roll.jpg) no-repeat 0px 0px;
+	left:0px;
+	float:left;
+	width:10px;
+	cursor: pointer;
+	position: absolute;
+	height:56px;
+	top:0px;
+}
+
+.blkshoplistx .RightButton {
+	background: url(../images/roll.jpg) no-repeat -10px 0px;
+	right:0px;
+	float:right;
+	width:10px;
+	cursor: pointer;
+	position: absolute;
+	height:56px;
+	top:0px;
+}
+
+.blkshoplistx .Cont {
+	padding:0px;
+	margin:0px 0px 0px 13px; 
+	text-align:center;
+	overflow: hidden;
+}
+
+.blkshoplistx .box {
+	float:left;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	width:65px;
+}
+
+.box .fang{
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	cursor:pointer;
+	
+}
+
+.box .picFit{
+	overflow:hidden;
+}
+
+.blkshoplistx .box img {
+padding:1px;
+border:1px #d7d1d1 solid;
+}
+
+.protitle{
+text-align:center;
+overflow: hidden;
+white-space:nowrap;
+}
+
+div.box a.prodtitle:link,div.box a.prodtitle:visited,div.box a.prodtitle:active{
+color:#303030;
+font:12px/33px SimSun,Arial,Sans-Serif;
+text-decoration: none;
+}
+
+div.box a.prodtitle:hover{
+color:#e10000;
+text-decoration: underline;
+font:12px/33px SimSun,Arial,Sans-Serif;
+}
+
+div#contentpages {
+padding:10px 0px 0px 0px;
+width:287px;
+margin:0px;
+}

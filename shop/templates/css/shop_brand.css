@@ -1,0 +1,14 @@
+.shoptwoclass{
+border:1px #d4d4d4 solid; 
+}
+
+.shoptwoclass_brand{
+text-align:center;
+}
+
+.shoptwoclass_brand li{
+list-style-type: none;
+margin:5px;
+text-align:left;
+float:left;
+}
